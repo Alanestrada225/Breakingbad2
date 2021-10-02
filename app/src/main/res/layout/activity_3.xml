@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".activities.detail.DelaitActivity"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:id="@+id/walter_white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            android:background="@color/orange"
+            android:backgroundTint="#FFC107"
+            android:padding="10sp"
+            android:rotationX="-360"
+            android:text="WALTER WHITE"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/jasse_pink"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="JASSE PINKMAN"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            android:translationX="@dimen/cardview_compat_inset_shadow"
+            android:translationY="@dimen/cardview_compat_inset_shadow"
+            app:iconTint="#B31023" />
+
+        <LinearLayout
+            android:id="@+id/controls"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            >
+            <Button
+                android:id="@+id/skiler_wit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="#831212"
+                android:backgroundTint="#094560"
+                android:padding="10sp"
+                android:text="SKILER WHILE"
+                android:textAllCaps="true"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                app:iconTint="#B31023" />
+        </LinearLayout>
+        <Button
+            android:id="@+id/walter_wite_jr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="WALTER WHITE JR"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:iconTint="#B31023" />
+
+        <Button
+            android:id="@+id/henry_schrader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="HENRY SCHRADER"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:iconTint="#B31023" />
+        <Button
+            android:id="@+id/marie_schrader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="MARIE SCHRADER"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:iconTint="#B31023" />
+        <Button
+            android:id="@+id/mike_ehrmantraut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="MIKE EHRMANTRAUT"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:iconTint="#B31023" />
+        <Button
+            android:id="@+id/saul_good"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10sp"
+            android:background="#831212"
+            android:backgroundTint="#094560"
+            android:padding="10sp"
+            android:text="SAUL GOODMAN"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="25sp"
+            app:iconTint="#B31023" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ingenieriaentecnologias.breakingbad">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:icon="@drawable/breakingbad"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/breakingbad"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Breakingbad">
+        <activity
+            android:name=".mikeehrmantraut"
+            android:exported="true" />
+        <activity
+            android:name=".marieSchrader"
+            android:exported="true" />
+        <activity
+            android:name=".Henryschrader"
+            android:exported="true" />
+        <activity
+            android:name=".Walterwhitejr"
+            android:exported="true" />
+        <activity
+            android:name=".skilerwhile"
+            android:exported="true" />
+        <activity
+            android:name=".ActivityJasse"
+            android:exported="true" />
+        <activity
+            android:name=".Activity4"
+            android:exported="true" />
+        <activity
+            android:name=".Activitiesmain.Activity3"
+            android:exported="true" />
+        <activity
+            android:name=".activity2"
+            android:exported="true" />
+        <activity
+            android:name=".splashactivid"
+            android:exported="true"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>
